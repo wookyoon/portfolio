@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@300&family=Libre+Bodoni:wght@600&family=Orelega+One&family=Oswald:wght@300&family=Radio+Canada&display=swap');
+
+$tablet: 1179px;
+$mp: 639px;
+
+@import 'common/reset';
+@import 'common/header';
+@import 'common/footer';
+@import 'common/layout';
+
+@import 'main/visual';
+@import 'main/education';
+@import 'main/profile';
+@import 'main/skills';
+@import 'main/work';
+
+@import 'sub/about';
+@import 'sub/html';
+@import 'sub/reactp';
