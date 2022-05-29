@@ -1,15 +1,35 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fab);
 const path = process.env.PUBLIC_URL;
 
 function Footer() {
 	return (
 		<footer>
 			<div className='inner'>
-				<div className='content'>
+				<div className='title'>
 					<h1>contact</h1>
 				</div>
-				<div className='pic'>
-					<img src={`${path}/img/p7.png`} alt='' />
+				<div className='box'>
+					<h2>
+						<FontAwesomeIcon icon={['fab', 'whatsapp']} />
+					</h2>
+					<h3>010-4021-4537</h3>
+				</div>
+				<div className='box'>
+					<h2>
+						<FontAwesomeIcon icon={['fab', 'google']} />
+					</h2>
+					<h3>wookyoon.jeung@gmail.com</h3>
+				</div>
+				<div className='box'>
+					<h2>
+						<FontAwesomeIcon icon={['fab', 'github']} />
+					</h2>
+					<h3>https://github.com/wookyoon</h3>
 				</div>
 			</div>
 		</footer>
