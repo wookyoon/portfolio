@@ -7,7 +7,14 @@ function About() {
 			<div className='inner'>
 				<div className='info'>
 					<h1>About Me</h1>
-					<p>test</p>
+				</div>
+				<div className='content'>
+					<h2>INTRODUCTION</h2>
+					<p>
+						Quite often, during complex projects, it’s natural for us to split
+						roles of Frontend and UI developers. Nevertheless, non – technical
+						people don’t always understand this decision.
+					</p>
 				</div>
 			</div>
 		</section>
