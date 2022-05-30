@@ -8,7 +8,6 @@ function Profile() {
 				<div className='info'>
 					<h1>Profile</h1>
 					<h2>
-						간단한 자기소개
 						<br /> adipisicing elit. Nobis consectetur
 						<br /> nostrum natus consequuntur quos
 						<br /> maiores a porro iusto facere ex.

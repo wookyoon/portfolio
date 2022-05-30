@@ -1,25 +1,7 @@
 #reactp {
 	width: 100%;
 	background-color: #222;
-	.toc {
-		position: fixed;
-		padding: 20px;
-		z-index: 5;
-		width: 100%;
-		max-width: 220px;
-		background-color: transparent;
-		h1 {
-			font: bold 20px/1 'lato';
-			color: #c9ab81;
-			padding-bottom: 20px;
-		}
-		ul {
-			li {
-				font: 16px/1.5 'noto sans kr';
-				color: #fff;
-			}
-		}
-	}
+
 	.inner {
 		width: 1180px;
 		height: 200vh;
@@ -95,11 +77,12 @@
 					color: #c9ab81;
 					letter-spacing: 1px;
 				}
+
 				ul {
 					padding-top: 5px;
 					margin-bottom: 40px;
 					li {
-						font: 18px/2 'noto sans kr';
+						font: 16px/2 'noto sans kr';
 						color: #c9ab81;
 						letter-spacing: 1px;
 						margin-bottom: 1px;
