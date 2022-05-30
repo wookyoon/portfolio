@@ -7,7 +7,12 @@ function Profile() {
 			<div className='inner'>
 				<div className='info'>
 					<h1>Profile</h1>
-					<p>test</p>
+					<h2>
+						간단한 자기소개
+						<br /> adipisicing elit. Nobis consectetur
+						<br /> nostrum natus consequuntur quos
+						<br /> maiores a porro iusto facere ex.
+					</h2>
 				</div>
 				<div className='pic'>
 					<img src={`${path}/img/p5.jpg`} alt='' />

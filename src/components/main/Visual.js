@@ -10,7 +10,7 @@ function Visual() {
 				</div>
 				<div className='title'>
 					<h1>Wookyoon Jeung</h1>
-					<h2>Front-End Applicant</h2>
+					<h2>Front-End and UI Developer</h2>
 				</div>
 			</div>
 		</figure>

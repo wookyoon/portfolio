@@ -12,6 +12,7 @@ function Footer() {
 			<div className='inner'>
 				<div className='title'>
 					<h1>contact</h1>
+					<p>Wookyoon Jeung</p>
 				</div>
 				<div className='box'>
 					<h2>

@@ -7,7 +7,24 @@ function ReactP() {
 			<div className='inner'>
 				<div className='info'>
 					<h1>REACT Project</h1>
-					<p>test</p>
+				</div>
+				<div className='wrap'>
+					<div className='pic'>
+						<img src={`${path}/img/p9.png`} alt='' />
+					</div>
+					<div className='title'>
+						<h1>리액트 기반 기업형 웹사이트</h1>
+						<h2>구성요소</h2>
+						<ul>
+							<li>부서 소개</li>
+							<li>사진 갤러리</li>
+							<li>영상 갤러리</li>
+							<li>고객 게시판</li>
+							<li>찾아오는길</li>
+							<li>회원가입</li>
+						</ul>
+						<a href='https://wookyoon.github.io/react_portfolio_WK/#/'>CLICK</a>
+					</div>
 				</div>
 			</div>
 		</section>
