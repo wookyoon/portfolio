@@ -30,7 +30,11 @@ function Footer() {
 					<h2>
 						<FontAwesomeIcon icon={['fab', 'github']} />
 					</h2>
-					<h3>https://github.com/wookyoon</h3>
+					<h3>
+						<a href='https://github.com/wookyoon'>
+							https://github.com/wookyoon
+						</a>
+					</h3>
 				</div>
 			</div>
 		</footer>

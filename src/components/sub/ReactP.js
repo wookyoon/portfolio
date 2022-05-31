@@ -10,7 +10,7 @@ function ReactP() {
 				</div>
 				<div className='wrap'>
 					<div className='pic'>
-						<img src={`${path}/img/p9.png`} alt='' />
+						<video src={`${path}/img/vid2.mp4`} loop autoPlay muted></video>
 					</div>
 					<div className='title'>
 						<h1>리액트 기반 기업형 웹사이트</h1>
@@ -23,7 +23,7 @@ function ReactP() {
 							<li>찾아오는길</li>
 							<li>회원가입</li>
 						</ul>
-						<a href='https://wookyoon.github.io/react_portfolio_WK/#/'>CLICK</a>
+						<a href='https://wookyoon.github.io/portfolio_React/'>CLICK</a>
 					</div>
 				</div>
 			</div>

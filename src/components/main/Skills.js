@@ -10,17 +10,22 @@ function Skills() {
 				</div>
 				<div className='content'>
 					<h1>Computer Skills</h1>
-					<br />
+
 					<h2>
-						HTML / CSS
+						&ensp;&ensp;&ensp;&ensp;&ensp;HTML / CSS
+						<span>&ensp;디자인 / 구조설계</span>
 						<br />
-						JavaScript / React
+						&ensp;&ensp;&ensp;&ensp;&ensp;JavaScript / React
+						<span>&ensp;액션 / 애니메이션</span>
 						<br />
-						Python / R
+						&ensp;&ensp;&ensp;&ensp;&ensp;Python / R
+						<span>&ensp;텍스트분석 / 웹크롤링</span>
 						<br />
-						Photoshop / Premiere Pro
+						&ensp;&ensp;&ensp;&ensp;&ensp;Photoshop / Premiere Pro
+						<span>&ensp;사진 / 영상편집</span>
 						<br />
-						Excel / PowerPoint / Word
+						&ensp;&ensp;&ensp;&ensp;&ensp;Excel / PowerPoint / Word
+						<span>&ensp;데이터분석 / PT제작</span>
 						<br />
 						<span className='tit'>Awards</span>
 						<span>2021 08</span>&ensp;K-Digital Training 인터페이스 개발
