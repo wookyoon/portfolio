@@ -46,9 +46,20 @@
 				background-color: #fff;
 			}
 			h2 {
+				text-align: left;
 				font: bold 18px/2 'oswald';
 				color: #c9ab81;
 				letter-spacing: 1px;
+				span {
+					color: #fff;
+				}
+				.tit {
+					display: block;
+					color: #fff;
+					font: 30px/2 'koulen';
+					text-align: center;
+					padding: 10px;
+				}
 			}
 		}
 	}

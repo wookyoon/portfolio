@@ -8,8 +8,8 @@ function Profile() {
 				<div className='info'>
 					<h1>Profile</h1>
 					<h2>
-						<br /> adipisicing elit. Nobis consectetur
-						<br /> nostrum natus consequuntur quos
+						<br /> 웹 사용자가 처음 접하는 것은 웹페이지의 화면입니다.
+						<br /> 웹사이트의 컨셉과 경험은 얼굴과 같습니다.
 						<br /> maiores a porro iusto facere ex.
 					</h2>
 				</div>
