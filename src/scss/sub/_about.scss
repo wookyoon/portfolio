@@ -4,14 +4,15 @@
 
 	.inner {
 		width: 1180px;
-		height: 100vh;
+		height: 1300px;
 		margin: 0px auto;
-		position: relative;
 
 		.info {
+			position: relative;
 			text-align: center;
 			color: #fff;
 			top: 90px;
+
 			h1 {
 				font: 50px/1 'koulen';
 				color: #fff;
@@ -33,15 +34,21 @@
 		}
 
 		.content {
-			position: absolute;
-			// top: 200px;
+			margin-top: 60px;
+			width: 100%;
+			padding-top: 70px;
+
 			h2 {
-				font: 30px/1 'oswald';
+				font: 24px/1 'noto sans kr';
 				color: #fff;
+				padding: 10px;
+				margin-bottom: 10px;
 			}
 			p {
-				font: 24px/1 'noto sans kr';
+				font: 20px/2.5 'noto sans kr';
 				color: #c9ab81;
+				padding-bottom: 20px;
+				margin-bottom: 30px;
 			}
 		}
 	}

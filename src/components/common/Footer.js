@@ -18,13 +18,19 @@ function Footer() {
 					<h2>
 						<FontAwesomeIcon icon={['fab', 'whatsapp']} />
 					</h2>
-					<h3>010-4021-4537</h3>
+					<h3>
+						<a href='tel:010-4021-4537'>010-4021-4537</a>
+					</h3>
 				</div>
 				<div className='box'>
 					<h2>
 						<FontAwesomeIcon icon={['fab', 'google']} />
 					</h2>
-					<h3>wookyoon.jeung@gmail.com</h3>
+					<h3>
+						<a href='mailto:wookyoon.jeung@gmail.com'>
+							wookyoon.jeung@gmail.com
+						</a>
+					</h3>
 				</div>
 				<div className='box'>
 					<h2>
