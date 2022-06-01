@@ -53,3 +53,59 @@
 		}
 	}
 }
+
+//m.p
+@media screen and (max-width: $mp) {
+	#about {
+		.inner {
+			width: 100%;
+			height: 1350px;
+			margin: 0px auto;
+
+			.info {
+				position: relative;
+				text-align: center;
+				color: #fff;
+				top: 90px;
+
+				h1 {
+					font: 22px/1 'koulen';
+					color: #fff;
+					padding-bottom: 20px;
+					// margin-top: 20px;
+					// margin-bottom: 80px;
+				}
+				h1::after {
+					display: block;
+					content: '';
+					position: absolute;
+					margin-top: 10px;
+					width: 90px;
+					height: 2px;
+					left: 50%;
+					transform: translateX(-50%);
+					background-color: #fff;
+				}
+			}
+
+			.content {
+				margin-top: 60px;
+				width: 100%;
+				padding: 70px;
+
+				h2 {
+					font: 16px/1 'noto sans kr';
+					color: #fff;
+					padding: 10px;
+					margin-bottom: 10px;
+				}
+				p {
+					font: 13px/2.5 'noto sans kr';
+					color: #c9ab81;
+					padding-bottom: 20px;
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+}

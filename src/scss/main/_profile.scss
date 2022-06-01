@@ -54,3 +54,60 @@
 		}
 	}
 }
+
+//m.p
+@media screen and (max-width: $mp) {
+}
+#profile {
+	.inner {
+		width: 100%;
+		height: 400px;
+		margin: 0px auto;
+		display: flex;
+		justify-content: space-evenly;
+
+		.info {
+			position: relative;
+			text-align: center;
+			color: #fff;
+			top: 10%;
+			h1 {
+				font: 20px/1 'koulen';
+				color: #fff;
+				padding-bottom: 20px;
+				// margin-top: 20px;
+				// margin-bottom: 80px;
+			}
+			h1::after {
+				display: block;
+				content: '';
+				position: absolute;
+				margin-top: 10px;
+				width: 70px;
+				height: 2px;
+				left: 50%;
+				transform: translateX(-50%);
+				background-color: #fff;
+			}
+			h2 {
+				text-align: left;
+				font: bold 11px/2 'oswald';
+				color: #c9ab81;
+				letter-spacing: 1px;
+			}
+		}
+
+		.pic {
+			width: 150px;
+			padding-top: 80px;
+
+			img {
+				width: 100%;
+				height: 260px;
+				object-fit: cover;
+				filter: brightness(1.2);
+				box-shadow: 3px 3px 10px #000;
+			}
+		}
+	}
+}
